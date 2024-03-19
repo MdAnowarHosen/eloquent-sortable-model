@@ -1,7 +1,7 @@
 {
-    "name": "spatie/eloquent-sortable",
+    "name": "larabangla/eloquent-sortable",
     "description": "Sortable behaviour for eloquent models",
-    "homepage": "https://github.com/spatie/eloquent-sortable",
+    "homepage": "https://github.com/MdAnowarHosen/eloquent-sortable-model",
     "authors": [
         {
             "name": "Freek Van der Herten",
@@ -31,12 +31,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\EloquentSortable\\": "src/"
+            "LaraBangla\\EloquentSortable\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\EloquentSortable\\Test\\": "tests"
+            "LaraBangla\\EloquentSortable\\Test\\": "tests"
         }
     },
     "minimum-stability": "dev",
@@ -48,7 +48,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Spatie\\EloquentSortable\\EloquentSortableServiceProvider"
+                "LaraBangla\\EloquentSortable\\EloquentSortableServiceProvider"
             ]
         }
     }
