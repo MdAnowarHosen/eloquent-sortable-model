@@ -1,11 +1,11 @@
 <?php
 
-namespace Spatie\EloquentSortable\Test;
+namespace LaraBangla\EloquentSortable\Test;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
-use Spatie\EloquentSortable\Sortable;
-use Spatie\EloquentSortable\SortableTrait;
+use LaraBangla\EloquentSortable\Sortable;
+use LaraBangla\EloquentSortable\SortableTrait;
 
 class DummyWithSoftDeletes extends Model implements Sortable
 {

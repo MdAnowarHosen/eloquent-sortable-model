@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\EloquentSortable;
+namespace LaraBangla\EloquentSortable;
 
 use Illuminate\Database\Eloquent\Builder;
 

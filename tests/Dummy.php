@@ -1,10 +1,10 @@
 <?php
 
-namespace Spatie\EloquentSortable\Test;
+namespace LaraBangla\EloquentSortable\Test;
 
 use Illuminate\Database\Eloquent\Model;
-use Spatie\EloquentSortable\Sortable;
-use Spatie\EloquentSortable\SortableTrait;
+use LaraBangla\EloquentSortable\Sortable;
+use LaraBangla\EloquentSortable\EloquentSortable;
 
 class Dummy extends Model implements Sortable
 {
